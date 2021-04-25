@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[with
+	${1:decl}
+end]]></content>
+    <tabTrigger>with</tabTrigger>
+    <scope>meta.declaration.pure</scope>
+    <description>With-Decl</description>
+</snippet>

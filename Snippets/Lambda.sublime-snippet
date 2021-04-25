@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[\\${1:x} -> ${2:y}]]></content>
+    <tabTrigger>\</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Lambda</description>
+</snippet>

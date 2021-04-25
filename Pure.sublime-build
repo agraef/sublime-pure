@@ -1,0 +1,18 @@
+{
+	"cmd": ["pure", "-c", "${file}", "-o", "${file_path}/${file_base_name}"],
+	"file_regex": "^([^:,\n]+), line ([0-9]+):() (.*)$",
+	"working_dir": "${file_path}",
+	"selector": "source.pure",
+
+	"variants":
+	[
+		{
+			"name": "Run in Terminal",
+			"cmd": ["gnome-terminal", "-e", "pure -i \"${file}\""]
+		},
+		{
+			"name": "Run",
+			"cmd": ["pure", "${file}"]
+		}
+	]
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "caption": "SublimeREPL: Pure",
+        "command": "run_existing_window_command", "args":
+        {
+            "id": "repl_pure",
+            "file": "config/Pure/Main.sublime-menu"
+        }
+    },
+    {
+        "caption": "SublimeREPL: Pure - run current file",
+        "command": "run_existing_window_command", "args":
+        {
+            "id": "repl_pure_run",
+            "file": "config/Pure/Main.sublime-menu"
+        }
+    }
+]

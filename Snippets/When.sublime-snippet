@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[when
+	${1:x} = ${2:y};
+end]]></content>
+    <tabTrigger>when</tabTrigger>
+    <scope>source.pure</scope>
+    <description>When</description>
+</snippet>

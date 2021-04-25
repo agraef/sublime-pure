@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[infixr ${1:level} ${2:symbol};]]></content>
+    <tabTrigger>infixr</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Infixr</description>
+</snippet>

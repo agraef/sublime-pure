@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[case ${1:x} of
+	${2:y} = ${3:z};
+end]]></content>
+    <tabTrigger>case</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Case</description>
+</snippet>

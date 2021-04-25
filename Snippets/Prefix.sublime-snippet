@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[prefix ${1:level} ${2:symbol};]]></content>
+    <tabTrigger>prefix</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Prefix</description>
+</snippet>

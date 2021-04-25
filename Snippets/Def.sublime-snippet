@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[def ${1:x} = ${2:y};]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Def</description>
+</snippet>

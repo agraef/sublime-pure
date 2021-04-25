@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[using ${1:symbol};]]></content>
+    <tabTrigger>using</tabTrigger>
+    <scope>source.pure</scope>
+    <description>Using</description>
+</snippet>

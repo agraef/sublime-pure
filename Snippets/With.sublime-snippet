@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[with
+	${1:x} = ${2:y};
+end]]></content>
+    <tabTrigger>with</tabTrigger>
+    <scope>source.pure</scope>
+    <description>With</description>
+</snippet>

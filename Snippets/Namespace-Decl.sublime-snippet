@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[namespace ${1:symbol}]]></content>
+    <tabTrigger>namespace</tabTrigger>
+    <scope>meta.declaration.pure</scope>
+    <description>Namespace-Decl</description>
+</snippet>

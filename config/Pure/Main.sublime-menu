@@ -1,0 +1,41 @@
+[
+     {
+        "id": "tools",
+        "children":
+        [{
+            "caption": "SublimeREPL",
+            "mnemonic": "r",
+            "id": "SublimeREPL",
+            "children":
+            [
+                {"command": "repl_open", 
+                 "caption": "Pure",
+                 "id": "repl_pure",
+                 "mnemonic": "p",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["pure", "-i"],
+                    "cwd": "$file_path",
+                    "external_id": "pure",
+                    "syntax": "Packages/sublime-pure/Syntax/Pure.tmLanguage"
+                    }
+                },
+                {"command": "repl_open", 
+                 "caption": "Pure - run current file",
+                 "id": "repl_pure_run",
+                 "mnemonic": "d",
+                 "args": {
+                    "type": "subprocess",
+                    "encoding": "utf8",
+                    "cmd": ["pure", "-i", "$file_basename"],
+                    "cwd": "$file_path",
+                    "external_id": "pure $file_basename",
+                    "additional_scopes": ["pure"],
+                    "syntax": "Packages/sublime-pure/Syntax/Pure.tmLanguage"
+                    }
+                }
+            ]   
+        }]
+    }
+]
