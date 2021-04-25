@@ -83,7 +83,7 @@ Albert Gräf <aggraef at gmail.com>
 [5]: http://groups.google.com/group/pure-lang
 [6]: https://github.com/wuub/SublimeREPL
 [7]: https://github.com/SublimeLinter/SublimeLinter
-[8]: http://docs.sublimetext.info/en/latest/basic_concepts.html#the-packages-directory
+[8]: https://docs.sublimetext.io/guide/getting-started/basic-concepts.html#the-packages-directory
 [9]: Pure.sublime-build
 [10]: https://sublime.wbond.net/
 [11]: http://sublimerepl.readthedocs.org/en/latest/
